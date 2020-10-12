@@ -1,4 +1,4 @@
-module github.com/micro/go-micro/v2
+module github.com/dreamlu/go-micro/v2
 
 go 1.13
 

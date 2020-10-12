@@ -3,8 +3,8 @@ package auth
 import (
 	"time"
 
-	"github.com/micro/go-micro/v2/auth/provider"
-	"github.com/micro/go-micro/v2/store"
+	"github.com/dreamlu/go-micro/v2/auth/provider"
+	"github.com/dreamlu/go-micro/v2/store"
 )
 
 func NewOptions(opts ...Option) Options {

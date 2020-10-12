@@ -3,7 +3,7 @@
 package secretbox
 
 import (
-	"github.com/micro/go-micro/v2/config/secrets"
+	"github.com/dreamlu/go-micro/v2/config/secrets"
 	"github.com/pkg/errors"
 	"golang.org/x/crypto/nacl/secretbox"
 

@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/mholt/certmagic"
-	"github.com/micro/go-micro/v2/api/server/acme"
-	"github.com/micro/go-micro/v2/logger"
+	"github.com/dreamlu/go-micro/v2/api/server/acme"
+	"github.com/dreamlu/go-micro/v2/logger"
 )
 
 type certmagicProvider struct {

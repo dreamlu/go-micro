@@ -3,8 +3,8 @@ package source
 import (
 	"context"
 
-	"github.com/micro/go-micro/v2/config/encoder"
-	"github.com/micro/go-micro/v2/config/encoder/json"
+	"github.com/dreamlu/go-micro/v2/config/encoder"
+	"github.com/dreamlu/go-micro/v2/config/encoder/json"
 )
 
 type Options struct {

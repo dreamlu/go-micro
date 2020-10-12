@@ -6,9 +6,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/micro/go-micro/v2/logger"
-	"github.com/micro/go-micro/v2/runtime"
-	"github.com/micro/go-micro/v2/util/kubernetes/client"
+	"github.com/dreamlu/go-micro/v2/logger"
+	"github.com/dreamlu/go-micro/v2/runtime"
+	"github.com/dreamlu/go-micro/v2/util/kubernetes/client"
 )
 
 // action to take on runtime service

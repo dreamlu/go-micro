@@ -5,10 +5,10 @@ import (
 	"context"
 	"sync"
 
-	"github.com/micro/go-micro/v2/client"
-	"github.com/micro/go-micro/v2/codec"
-	"github.com/micro/go-micro/v2/metadata"
-	"github.com/micro/go-micro/v2/server"
+	"github.com/dreamlu/go-micro/v2/client"
+	"github.com/dreamlu/go-micro/v2/codec"
+	"github.com/dreamlu/go-micro/v2/metadata"
+	"github.com/dreamlu/go-micro/v2/server"
 )
 
 type Stream interface {

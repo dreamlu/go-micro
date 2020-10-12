@@ -10,8 +10,8 @@ import (
 	"time"
 
 	"github.com/mholt/certmagic"
-	"github.com/micro/go-micro/v2/store"
-	"github.com/micro/go-micro/v2/sync"
+	"github.com/dreamlu/go-micro/v2/store"
+	"github.com/dreamlu/go-micro/v2/sync"
 )
 
 // File represents a "File" that will be stored in store.Store - the contents and last modified time

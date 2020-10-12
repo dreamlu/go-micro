@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/micro/go-micro/v2/auth"
-	"github.com/micro/go-micro/v2/metadata"
+	"github.com/dreamlu/go-micro/v2/auth"
+	"github.com/dreamlu/go-micro/v2/metadata"
 )
 
 func TestWrapper(t *testing.T) {

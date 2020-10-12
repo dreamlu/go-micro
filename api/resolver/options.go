@@ -3,7 +3,7 @@ package resolver
 import (
 	"net/http"
 
-	"github.com/micro/go-micro/v2/auth"
+	"github.com/dreamlu/go-micro/v2/auth"
 )
 
 // NewOptions returns new initialised options

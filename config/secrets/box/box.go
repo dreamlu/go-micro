@@ -2,7 +2,7 @@
 package box
 
 import (
-	"github.com/micro/go-micro/v2/config/secrets"
+	"github.com/dreamlu/go-micro/v2/config/secrets"
 	"github.com/pkg/errors"
 	naclbox "golang.org/x/crypto/nacl/box"
 

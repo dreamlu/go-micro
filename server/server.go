@@ -9,9 +9,9 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/micro/go-micro/v2/codec"
-	"github.com/micro/go-micro/v2/logger"
-	"github.com/micro/go-micro/v2/registry"
+	"github.com/dreamlu/go-micro/v2/codec"
+	"github.com/dreamlu/go-micro/v2/logger"
+	"github.com/dreamlu/go-micro/v2/registry"
 )
 
 // Server is a simple micro server abstraction

@@ -2,7 +2,7 @@
 package registry
 
 import (
-	"github.com/micro/go-micro/v2/network/resolver"
+	"github.com/dreamlu/go-micro/v2/network/resolver"
 )
 
 // Resolver returns a static list of nodes. In the event the node list

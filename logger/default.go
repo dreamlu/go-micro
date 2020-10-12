@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	dlog "github.com/micro/go-micro/v2/debug/log"
+	dlog "github.com/dreamlu/go-micro/v2/debug/log"
 )
 
 func init() {

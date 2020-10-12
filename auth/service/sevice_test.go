@@ -3,7 +3,7 @@ package service
 import (
 	"testing"
 
-	pb "github.com/micro/go-micro/v2/auth/service/proto"
+	pb "github.com/dreamlu/go-micro/v2/auth/service/proto"
 )
 
 func TestListRulesSorting(t *testing.T) {

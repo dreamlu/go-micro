@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/lib/pq"
-	"github.com/micro/go-micro/v2/store"
+	"github.com/dreamlu/go-micro/v2/store"
 	"github.com/pkg/errors"
 )
 

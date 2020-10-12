@@ -14,13 +14,13 @@ import (
 	"time"
 
 	"github.com/micro/cli/v2"
-	"github.com/micro/go-micro/v2"
-	"github.com/micro/go-micro/v2/logger"
-	"github.com/micro/go-micro/v2/registry"
-	maddr "github.com/micro/go-micro/v2/util/addr"
-	mhttp "github.com/micro/go-micro/v2/util/http"
-	mnet "github.com/micro/go-micro/v2/util/net"
-	mls "github.com/micro/go-micro/v2/util/tls"
+	"github.com/dreamlu/go-micro/v2"
+	"github.com/dreamlu/go-micro/v2/logger"
+	"github.com/dreamlu/go-micro/v2/registry"
+	maddr "github.com/dreamlu/go-micro/v2/util/addr"
+	mhttp "github.com/dreamlu/go-micro/v2/util/http"
+	mnet "github.com/dreamlu/go-micro/v2/util/net"
+	mls "github.com/dreamlu/go-micro/v2/util/tls"
 )
 
 type service struct {

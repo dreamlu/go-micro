@@ -1,16 +1,16 @@
 package micro
 
 import (
-	"github.com/micro/go-micro/v2/client"
-	"github.com/micro/go-micro/v2/debug/trace"
-	"github.com/micro/go-micro/v2/server"
-	"github.com/micro/go-micro/v2/store"
+	"github.com/dreamlu/go-micro/v2/client"
+	"github.com/dreamlu/go-micro/v2/debug/trace"
+	"github.com/dreamlu/go-micro/v2/server"
+	"github.com/dreamlu/go-micro/v2/store"
 
 	// set defaults
-	gcli "github.com/micro/go-micro/v2/client/grpc"
-	memTrace "github.com/micro/go-micro/v2/debug/trace/memory"
-	gsrv "github.com/micro/go-micro/v2/server/grpc"
-	memoryStore "github.com/micro/go-micro/v2/store/memory"
+	gcli "github.com/dreamlu/go-micro/v2/client/grpc"
+	memTrace "github.com/dreamlu/go-micro/v2/debug/trace/memory"
+	gsrv "github.com/dreamlu/go-micro/v2/server/grpc"
+	memoryStore "github.com/dreamlu/go-micro/v2/store/memory"
 )
 
 func init() {

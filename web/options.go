@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/micro/cli/v2"
-	"github.com/micro/go-micro/v2"
-	"github.com/micro/go-micro/v2/registry"
+	"github.com/dreamlu/go-micro/v2"
+	"github.com/dreamlu/go-micro/v2/registry"
 )
 
 //Options for web

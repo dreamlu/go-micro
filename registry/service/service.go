@@ -5,10 +5,10 @@ import (
 	"context"
 	"time"
 
-	"github.com/micro/go-micro/v2/client"
-	"github.com/micro/go-micro/v2/client/grpc"
-	"github.com/micro/go-micro/v2/registry"
-	pb "github.com/micro/go-micro/v2/registry/service/proto"
+	"github.com/dreamlu/go-micro/v2/client"
+	"github.com/dreamlu/go-micro/v2/client/grpc"
+	"github.com/dreamlu/go-micro/v2/registry"
+	pb "github.com/dreamlu/go-micro/v2/registry/service/proto"
 )
 
 var (

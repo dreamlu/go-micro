@@ -4,13 +4,13 @@ import (
 	"context"
 	"strings"
 
-	"github.com/micro/go-micro/v2/auth"
-	"github.com/micro/go-micro/v2/client"
-	"github.com/micro/go-micro/v2/debug/stats"
-	"github.com/micro/go-micro/v2/debug/trace"
-	"github.com/micro/go-micro/v2/errors"
-	"github.com/micro/go-micro/v2/metadata"
-	"github.com/micro/go-micro/v2/server"
+	"github.com/dreamlu/go-micro/v2/auth"
+	"github.com/dreamlu/go-micro/v2/client"
+	"github.com/dreamlu/go-micro/v2/debug/stats"
+	"github.com/dreamlu/go-micro/v2/debug/trace"
+	"github.com/dreamlu/go-micro/v2/errors"
+	"github.com/dreamlu/go-micro/v2/metadata"
+	"github.com/dreamlu/go-micro/v2/server"
 )
 
 type clientWrapper struct {

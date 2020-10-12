@@ -8,13 +8,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/micro/go-micro/v2/auth"
-	pb "github.com/micro/go-micro/v2/auth/service/proto"
-	"github.com/micro/go-micro/v2/auth/token"
-	"github.com/micro/go-micro/v2/auth/token/jwt"
-	"github.com/micro/go-micro/v2/client"
-	log "github.com/micro/go-micro/v2/logger"
-	"github.com/micro/go-micro/v2/util/jitter"
+	"github.com/dreamlu/go-micro/v2/auth"
+	pb "github.com/dreamlu/go-micro/v2/auth/service/proto"
+	"github.com/dreamlu/go-micro/v2/auth/token"
+	"github.com/dreamlu/go-micro/v2/auth/token/jwt"
+	"github.com/dreamlu/go-micro/v2/client"
+	log "github.com/dreamlu/go-micro/v2/logger"
+	"github.com/dreamlu/go-micro/v2/util/jitter"
 )
 
 // NewAuth returns a new instance of the Auth service

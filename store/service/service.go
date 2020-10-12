@@ -6,11 +6,11 @@ import (
 	"io"
 	"time"
 
-	"github.com/micro/go-micro/v2/client"
-	"github.com/micro/go-micro/v2/errors"
-	"github.com/micro/go-micro/v2/metadata"
-	"github.com/micro/go-micro/v2/store"
-	pb "github.com/micro/go-micro/v2/store/service/proto"
+	"github.com/dreamlu/go-micro/v2/client"
+	"github.com/dreamlu/go-micro/v2/errors"
+	"github.com/dreamlu/go-micro/v2/metadata"
+	"github.com/dreamlu/go-micro/v2/store"
+	pb "github.com/dreamlu/go-micro/v2/store/service/proto"
 )
 
 type serviceStore struct {

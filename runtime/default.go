@@ -12,7 +12,7 @@ import (
 	"time"
 
 	"github.com/hpcloud/tail"
-	"github.com/micro/go-micro/v2/logger"
+	"github.com/dreamlu/go-micro/v2/logger"
 )
 
 type runtime struct {

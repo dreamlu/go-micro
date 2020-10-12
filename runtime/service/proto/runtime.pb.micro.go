@@ -11,9 +11,9 @@ import (
 
 import (
 	context "context"
-	api "github.com/micro/go-micro/v2/api"
-	client "github.com/micro/go-micro/v2/client"
-	server "github.com/micro/go-micro/v2/server"
+	api "github.com/dreamlu/go-micro/v2/api"
+	client "github.com/dreamlu/go-micro/v2/client"
+	server "github.com/dreamlu/go-micro/v2/server"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

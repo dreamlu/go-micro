@@ -2,8 +2,8 @@
 package proto
 
 import (
-	"github.com/micro/go-micro/v2/router"
-	pbRtr "github.com/micro/go-micro/v2/router/service/proto"
+	"github.com/dreamlu/go-micro/v2/router"
+	pbRtr "github.com/dreamlu/go-micro/v2/router/service/proto"
 )
 
 // RouteToProto encodes route into protobuf and returns it
