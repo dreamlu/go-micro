@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+import "google/api/annotations.proto";
+
+service Test {
+	rpc Call(Request) returns (Response) {
+    option (google.api.http) = { post: "/api/v0/test/call/{uuid}"; body:"*"; };
+	};
+
+}
+
+message Request {
+  string uuid = 1;
+	string name = 2;
+}
+
+message Response {
+	string msg = 1;
+}
