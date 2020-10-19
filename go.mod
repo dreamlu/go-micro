@@ -40,7 +40,6 @@ require (
 	github.com/imdario/mergo v0.3.8
 	github.com/jonboulle/clockwork v0.1.0 // indirect
 	github.com/joncalhoun/qson v0.0.0-20170526102502-8a9cab3a62b1
-	github.com/json-iterator/go v1.1.9 // indirect
 	github.com/kr/pretty v0.1.0
 	github.com/lib/pq v1.3.0
 	github.com/lucas-clemente/quic-go v0.18.1
@@ -54,6 +53,7 @@ require (
 	github.com/oxtoacart/bpool v0.0.0-20190530202638-03653db5a59c
 	github.com/patrickmn/go-cache v2.1.0+incompatible
 	github.com/pkg/errors v0.9.1
+	github.com/prometheus/client_golang v1.5.1
 	github.com/soheilhy/cmux v0.1.4 // indirect
 	github.com/stretchr/testify v1.4.0
 	github.com/technoweenie/multipartstreamer v1.0.1 // indirect
@@ -69,7 +69,4 @@ require (
 	gopkg.in/src-d/go-git.v4 v4.13.1
 	gopkg.in/telegram-bot-api.v4 v4.6.4
 	sigs.k8s.io/yaml v1.1.0 // indirect
-	github.com/prometheus/client_golang v1.5.1
-	github.com/prometheus/client_model v0.2.0
-	github.com/stretchr/testify v1.4.0
 )
